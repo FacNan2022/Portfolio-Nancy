@@ -1,0 +1,35 @@
+.skills{
+    background-color: var(--col-de-fondo4);
+    width: 100%;
+    height: 100%;
+}
+
+.skills__titulo{
+    text-align: center;
+}
+
+.skills__contenido{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.skills__tecnologia h3{
+    text-align: center;
+   
+   
+}
+
+.skills__tecnologia img{
+    justify-content: space-around;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.skills__tecnologia img:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 2s ease-in-out;
+    -webkit-border-radius:50%;
+    transition: 2s ease;
+    
+}

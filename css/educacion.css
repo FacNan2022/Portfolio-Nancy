@@ -1,0 +1,41 @@
+.educacion{
+    background-color: var(--col-de-fundo2);
+    
+}
+
+.educacion__titulo{
+    text-align: center;
+}
+
+.contenido-educacion{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.educacion__lista{
+    border: 2px solid cornflowerblue;
+    margin: 30px;
+    box-shadow: 10px 10px 30px 15px cornflowerblue;
+    transition: 400ms;
+}
+
+.educacion__lista:hover{
+    -webkit-transform: rotateX(360deg);
+    transition: 2s ease-in-out;
+}
+
+.educacion__lista h3{
+text-align: center;
+}
+.educacion__lista img{
+    width: 300px;
+    object-fit: scale-down;
+    height: 200px;
+   
+}
+
+.educacion__lista img:hover{
+    opacity: 0.7;
+   
+}

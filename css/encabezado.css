@@ -1,0 +1,24 @@
+.encabezado{
+    width: 100%;
+   height: 100vh;
+    background: url(../imagenes/portada.jpg) center;
+    background-size: cover;
+   
+}
+
+.navegador{
+  
+}
+
+.encabezado__navegador__lista{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 80px;
+
+}
+
+.encabezado__navegador__lista__items{
+color: var(--col-de-link);
+}

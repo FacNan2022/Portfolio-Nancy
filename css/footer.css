@@ -1,0 +1,25 @@
+.pie-de-pagina{
+   background-color: var(#F5F5F5);
+    width: 100%;
+    height: 100%;
+}
+
+.redes p{
+    text-align: center;
+
+}
+
+.redes__lista{
+display: flex;
+justify-content: space-between;
+
+}
+
+.redes__lista img{
+    width: 30px;
+    height: 30px;
+}
+
+.redes__lista__items{
+    padding: 25px;
+}
