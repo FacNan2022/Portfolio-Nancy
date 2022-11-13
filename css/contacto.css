@@ -26,4 +26,16 @@ form label {
 
 .input-padron{
     border: 2px solid black;
+    width: 500px;
+    padding: 10px;
+}
+
+#mensaje{
+    border: 2px solid black;
+    width: 500px;
+}
+
+.btn-primary{
+    margin-top: 10px;
+    color: blue;
 }

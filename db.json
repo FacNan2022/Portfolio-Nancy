@@ -1,0 +1,35 @@
+{
+  "perfil": [
+    {
+      "id": 1,
+      "nombre": "Nancy ",
+      "apellido": "Echeverria",
+      "descripcion": "Hace un año que mi vida cambio unos 180° grados, trabajé en varios lados en rubros distintos, en cooperativas mixtas, como cuidadora de adultos mayores, construyendo casas y en pandemia se despertó en mí el gran interés por la tecnología, me dí cuenta de su importancia, el Mejor medio de comunicación que tuvimos en ese tiempo era a traves de la tecnología, y si no avanzaba con las nuevas formas de comunicación iba a quedar aislada completamente, por eso decidí aprender de cero a Programar, a entender la lógica de programación y buscando cursos encontramos el de Argentina Programa y nos anotamos sin dudarlo con mi pareja, nos llamaron enseguida y ahí empezó a cambiar nuetra forma de ver las cosas y empezamos a entender cosas que antes no le prestabamos atención, nos empezamos a crear habitos y a distribuir nuestro tiempo para poder cumplir con nuestros objetivos, también se nos dió la oportunidad de ser becados en la empresa de Oracle: One, Next Education, para estudiar con Alura Latam y profundizar aún mejor nuestros conceptos, aprendimos habilidades blandas y técnicas que fuimos sumando para nuestro desarrollo personal y profecional, hemos conocido gente maravillosa y queremos seguir aprendiendo de ellos pero también queremos ser parte de un equipo de trabajo donde podamos demostrar Todas las habilidades que venimos aprendiendo y crear un ambiente de trabajo saludable, donde podamos crecer admirando e imitando a nuestros maestros.En mis tiempos libres me gusta mucho cantar, bailar, pintar cuadros, estar rodeada de la naturaleza y de mis seres queridos, cada tanto necesito ir al rio para sentir el viento en mi cara, ese cambio de aire que siento que se lleva todo lo que no sirve y que renueva mis pensamientos y energias y donde nacen nuevas ideas. Me gusta mucho salir temprano a esperar ver la salida del sol junto con mi pareja, así nació nuestra pasión por la programación, después de un momento adverso, vimos salir el sol y renació en nosotros una nueva esperanza, nos sumerjimos juntos y formamos un equipo, nos dividimos las tareas, comenzamos a investigar y hacer cursos para prepararnos a vivir este Gran desafio: Ser Programadores Web. .Estoy feliz de poder compartir este momento con él, nos volvimos muy apasionados por los códigos, por diseñar y construir páginas web y proyectos juntos. Ahora solo falta que nos hagas parte de tu Empresa, de tu equipo de trabajo, para seguir aprendiendo y sumando Juntos.",
+      "img": "./imagenes/foto-perfil.jpg",
+      "ciudad": "La Plata, Buenos Aires, Argentina."
+    }
+  ],
+  "educacion": [
+    {
+      "id": 1,
+      "titulo": "CENS 452",
+      "descripcion": "Bachiller con orientación en Ciencias Sociales especializado en gestión de políticas públicas.",
+      "img": "./imagenes/logo Cens.webp"
+    },
+    {
+      "id": 2,
+      "titulo": "Argentina Programa",
+      "descripcion": "Curso impulsado por el Ministerio de Desarrollo de Producción",
+      "img": "./imagenes/logo-Argentina-Programa.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Oracle Next Education",
+      "descripcion": "Formación realizada con Oracle y Alura Latam",
+      "img": "./imagenes/logo-Oracle-Next-Education.webp"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

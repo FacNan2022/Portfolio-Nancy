@@ -1,12 +1,14 @@
 .pie-de-pagina{
-   background-color: var(#F5F5F5);
+  background: url(../imagenes/footer.jpg) no-repeat center/ cover;
     width: 100%;
-    height: 100%;
+    height: 300px;
+   
 }
 
 .redes p{
+    margin-top: 100px;
     text-align: center;
-
+    color: black;
 }
 
 .redes__lista{
@@ -21,5 +23,27 @@ justify-content: space-between;
 }
 
 .redes__lista__items{
-    padding: 25px;
+    padding: 45px;
+}
+
+#botonArriba{
+    width: 60px;
+    height: 60px;
+    background: #46a2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 65px;
+    right: 50px;
+    position: fixed;
+    
+    
+}
+
+
+#btn-subir {
+    background: inherit;
+    border: 0px;
+   
 }

@@ -18,6 +18,7 @@
     margin: 30px;
     box-shadow: 10px 10px 30px 15px cornflowerblue;
     transition: 400ms;
+    width: 300px;
 }
 
 .educacion__lista:hover{
@@ -27,6 +28,10 @@
 
 .educacion__lista h3{
 text-align: center;
+}
+
+.educacion__lista p{
+   margin-left: 15px; 
 }
 .educacion__lista img{
     width: 300px;
