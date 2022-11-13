@@ -17,7 +17,7 @@ const crearTarjeta = (id, img, titulo, descripcion) => {
 
     eliminar.addEventListener('click', () => {
         const ide = eliminar.id
-        swal('Estas seguro que deseas eliminar la educación?', {
+        swal('Estas seguro que deseas eliminar la educacion?', {
             buttons: ['Sí', 'No']
         }).then((respuesta) => {
            if(respuesta == null){

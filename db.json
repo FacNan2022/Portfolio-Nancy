@@ -35,31 +35,41 @@
       "id": "7ba4e967-15a9-49cd-b25d-1cb00b42ce4b"
     }
   ],
-  "hobbies":[ 
+  "hobbies": [
     {
       "id": 1,
-    "titulo": "cantar",
-    "img": "./imagenes/cantar.jpg"
-  },
-  {
-    "id": 2,
-    "titulo": "bailar",
-    "img": "./imagenes/bailar.jpg"
-  },
-  {
-    "id": 3,
-    "titulo": "tener plantas y flores",
-    "img": "./imagenes/flor.jpg"
-  },
-  {"id": 4,
-
-    "titulo": "estar al aire libre",
-    "img": "./imagenes/aire-libre2.jpg"
-  },
-  {
-    "id": 5,
-    "titulo": "pintar cuadros",
-    "img": "./imagenes/cuadro.jpg"
-  }
-]
+      "titulo": "cantar",
+      "img": "./imagenes/cantar.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "bailar",
+      "img": "./imagenes/bailar.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "tener plantas y flores",
+      "img": "./imagenes/flor.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "estar al aire libre",
+      "img": "./imagenes/aire-libre2.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "pintar cuadros",
+      "img": "./imagenes/cuadro.jpg"
+    },
+    {
+      "titulo": "Escribir",
+      "img": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/08/escribir-2043389.jpg",
+      "id": "3e9d52ce-c4ee-4fd8-9974-066a6cd0e610"
+    },
+    {
+      "id": "22c4f62b-5d4b-45c2-b79b-93721a9b4553",
+      "titulo": "Viajar por el mundo",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-aKNmgZS7Bz6eF_Jv0yhYSqxeIxdBw-wqzQ&usqp=CAU"
+    }
+  ]
 }

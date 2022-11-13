@@ -6,15 +6,31 @@ const tarjetaHobbie = (id, titulo, img) => {
 
     
     const contenido = `
+    <p>${titulo}</p>
+    <i class="fa-solid fa-trash-can" id="${id}"></i>
+        <a href="http://127.0.0.1:5500/formularios/editar/editar-hobbie.html?id=${id}"><i class="fa-solid fa-pen"></i></a>
     <figure class="hobbie">
-        <p>${titulo}</p>
         <img src="${img}" alt="">
 
     </figure>
 `
-
 hobbie.innerHTML = contenido
-console.log(hobbie);
+
+const eliminar = hobbie.querySelector('.fa-trash-can')
+const ide = eliminar.id
+eliminar.addEventListener('click', () => {
+    swal('Estas seguro que deseas eliminar el hobbie?', {
+        buttons: ['Sí', 'No']
+    }).then((respuesta) => {
+       if (respuesta == null){
+        serviceHobbies.eliminarHobbie(ide).then(() => {
+            window.location.href = 'http://127.0.0.1:5500/index.html'
+        })
+       }else{
+        return 
+       }
+    })
+})
 return hobbie
 
 }
@@ -27,7 +43,7 @@ serviceHobbies.listaHobbies().then((data) =>{
         const agregarHobbie = tarjetaHobbie(id, titulo, img)
         hobbies.appendChild(agregarHobbie)
         
-    })
-})
+    });
+});
 
 
