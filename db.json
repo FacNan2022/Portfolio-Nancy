@@ -27,9 +27,39 @@
       "titulo": "Oracle Next Education",
       "descripcion": "Formación realizada con Oracle y Alura Latam",
       "img": "./imagenes/logo-Oracle-Next-Education.webp"
+    },
+    {
+      "titulo": "Curso de Java",
+      "descripcion": "Curso realizado por el Ministerio de trabajo",
+      "img": "https://i.blogs.es/8d2420/650_1000_java/1366_2000.png",
+      "id": "7ba4e967-15a9-49cd-b25d-1cb00b42ce4b"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "hobbies":[ 
+    {
+      "id": 1,
+    "titulo": "cantar",
+    "img": "./imagenes/cantar.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "bailar",
+    "img": "./imagenes/bailar.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "tener plantas y flores",
+    "img": "./imagenes/flor.jpg"
+  },
+  {"id": 4,
+
+    "titulo": "estar al aire libre",
+    "img": "./imagenes/aire-libre2.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "pintar cuadros",
+    "img": "./imagenes/cuadro.jpg"
   }
+]
 }

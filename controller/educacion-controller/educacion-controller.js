@@ -43,7 +43,6 @@ serviceEducacion.listaEducacion().then((data) => {
         const educacion = crearTarjeta(id, img, titulo, descripcion)
         section.appendChild(educacion)
 
-        console.log(educacion);
     });
 });
 
