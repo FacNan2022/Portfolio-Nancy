@@ -1,4 +1,5 @@
 import { servicePerfil } from "../sevices/perfil-services.js";
+import { verificarRegistro } from "./login-controller.js";
 
 const crearLinea = (id, nombre, apellido, descripcion, img, ciudad) =>{
     const fotoPerfil = document.createElement('div')
@@ -15,6 +16,14 @@ const crearLinea = (id, nombre, apellido, descripcion, img, ciudad) =>{
 </div>`
 
 fotoPerfil.innerHTML = contenido;
+const editar = fotoPerfil.querySelector('[data-editar]')
+console.log(editar);
+if (verificarRegistro.login() == true){
+    editar.style.display = 'inherit'
+}else{
+    editar.style.display = 'none'
+}
+
 return (fotoPerfil)
 }
 
@@ -27,4 +36,5 @@ servicePerfil.infoPerfil().then((perfil)=>{
 
     
 });
+
 

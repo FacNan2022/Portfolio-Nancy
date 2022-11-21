@@ -1,4 +1,5 @@
 import { serviceEducacion } from "../../sevices/educacion-service.js";
+import { verificarRegistro } from "../login-controller.js";
 
 const crearTarjeta = (id, img, titulo, descripcion) => {
     const tarjetaEducacion = document.createElement('div');
@@ -7,11 +8,20 @@ const crearTarjeta = (id, img, titulo, descripcion) => {
         <img src="${img}">
         <h3>${titulo}</h3>
         <p>${descripcion}</p>
+        <div class="btn-edicion" data-edicion>
         <i class="fa-solid fa-trash-can" id="${id}"></i>
         <a href="http://127.0.0.1:5500/formularios/editar-educacion.html?id=${id}"><i class="fa-solid fa-pen"></i></a>
+        </div>
 `
 
     tarjetaEducacion.innerHTML = contenido
+    const botonesEdicion = tarjetaEducacion.querySelector('[data-edicion]')
+    if (verificarRegistro.login() == true){
+        botonesEdicion.style.display = 'inherit'
+    }else{
+        botonesEdicion.style.display = 'none'
+
+    }
     const eliminar = tarjetaEducacion.querySelector('.fa-trash-can')
 
 

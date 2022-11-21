@@ -1,4 +1,12 @@
 {
+  "usuario": [
+    {
+      "id": 1,
+      "email": "nan_alaobra@hotmail.com",
+      "password": "Imaginar@Programar",
+      "registrada": false
+    }
+  ],
   "perfil": [
     {
       "id": 1,
@@ -38,27 +46,27 @@
   "hobbies": [
     {
       "id": 1,
-      "titulo": "cantar",
+      "titulo": "Cantar",
       "img": "./imagenes/cantar.jpg"
     },
     {
       "id": 2,
-      "titulo": "bailar",
+      "titulo": "Bailar",
       "img": "./imagenes/bailar.jpg"
     },
     {
       "id": 3,
-      "titulo": "tener plantas y flores",
+      "titulo": "Tener plantas y flores",
       "img": "./imagenes/flor.jpg"
     },
     {
       "id": 4,
-      "titulo": "estar al aire libre",
+      "titulo": "Estar al aire libre",
       "img": "./imagenes/aire-libre2.jpg"
     },
     {
       "id": 5,
-      "titulo": "pintar cuadros",
+      "titulo": "Pintar cuadros",
       "img": "./imagenes/cuadro.jpg"
     },
     {
@@ -68,8 +76,65 @@
     },
     {
       "id": "22c4f62b-5d4b-45c2-b79b-93721a9b4553",
-      "titulo": "Viajar por el mundo",
+      "titulo": "Viajar ",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-aKNmgZS7Bz6eF_Jv0yhYSqxeIxdBw-wqzQ&usqp=CAU"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "titulo": "Html5",
+      "img": "./imagenes/logo-Html5.png"
+    },
+    {
+      "titulo": "JavaScript",
+      "img": "https://thumbnail.imgbin.com/0/8/11/imgbin-javascript-logo-html-javascript-logo-1gJt6c05WzKXQuybWYgXvaTYk_t.jpg",
+      "id": 3
+    },
+    {
+      "titulo": "Java",
+      "img": "https://w7.pngwing.com/pngs/837/18/png-transparent-logo-java-runtime-environment-programming-language-runtime-system-oracle-text-logo-desktop-wallpaper-thumbnail.png",
+      "id": 4
+    },
+    {
+      "titulo": "Angular",
+      "img": "https://w7.pngwing.com/pngs/620/322/png-transparent-angularjs-ruby-on-rails-typescript-web-application-icon-hacker-angle-triangle-logo.png",
+      "id": 5
+    },
+    {
+      "titulo": "Github",
+      "img": "https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg",
+      "id": 6
+    }
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Encriptador de texto",
+      "descripcion": "Desafio realizado con Alura Latam",
+      "img": "https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Juego realizado con Html5, Css3 y JavaScript",
+      "descripcion": "Accidentado",
+      "img": "https://media.istockphoto.com/vectors/accident-on-road-car-encountered-an-traffic-lights-illustration-of-vector-id1211527152?b=1&k=6&m=1211527152&s=170667a&w=0&h=8oGWpH9RsOs1sfJzA5s_bwxSORUaHSQiBmg8BmRQyuc=",
+      "url": "https://facnan2022.github.io/accidentado/"
+    },
+    {
+      "nombre": "Barbería Alura",
+      "descripcion": "Página web creada con Html y Css",
+      "img": "https://angelicaalbuquerque.github.io/barbearia_alura/banner-1600x600.jpg",
+      "url": "https://facnan2022.github.io/BarberiaAlura/",
+      "id": 3
+    },
+    {
+      "nombre": "Portfolio Nancy Echeverria",
+      "descripcion": "Portfolio realizado con Argentina Programa en Html, Css, Angular y JavaScript",
+      "img": "https://cdn-sp.radionacional.com.ar/wp-content/uploads/2021/12/Diseno-sin-titulo-1-1.png",
+      "url": " https://portfolio-nancy-echeverria.web.app/",
+      "id": 4
     }
   ]
 }

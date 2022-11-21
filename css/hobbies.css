@@ -1,5 +1,9 @@
 .hobbies {
-    background-color: var(--col-de-fondo3);
+    text-align: center;
+    background: #141414 url(https://unsplash.it/1228/880?image=302);
+    background-size: cover;
+    background-position: 50%; 
+    padding: 30px;
 
 }
 
