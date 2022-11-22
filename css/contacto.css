@@ -1,6 +1,4 @@
-.contacto{
-   
-}
+
 
 .contacto h3{
     text-align: center;
@@ -37,5 +35,11 @@ form label {
 
 .btn-primary{
     margin-top: 10px;
-    color: blue;
+    background-color: blue;
+}
+
+@media(max-width:600px){
+    .contacto{
+        height:auto;
+    }
 }

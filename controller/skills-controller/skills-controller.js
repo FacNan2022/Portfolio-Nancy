@@ -5,9 +5,9 @@ const crearSkills = (id, titulo, img) => {
     const skill = document.createElement('div')
     skill.classList.add('skills__tecnologia')
     const contenido = `
-    <div class="btnEditar" data-editar>
-    <i class="fa-solid fa-trash-can" id="${id}"></i>
-        <a href="http://127.0.0.1:5500/formularios/editar/editar-skill.html?id=${id}"><i class="fa-solid fa-pen"></i></a>
+    <div class="btn-editar" data-editar>
+    <i class="fa-solid fa-trash-can " id="${id}"></i>
+        <a href="http://127.0.0.1:5500/formularios/editar/editar-skill.html?id=${id}"><i class="fa-solid fa-pen btn-success"></i></a>
         </div>
     <h3>${titulo}</h3>
     <img src="${img}">

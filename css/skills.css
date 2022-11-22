@@ -7,6 +7,11 @@
     padding: 30px;
 }
 
+.skills button{
+    background-color: #46a2fd;
+    border-radius: 50%;
+}
+
 .skills__titulo{
     text-align: center;
 }
@@ -37,4 +42,17 @@
     -webkit-border-radius:50%;
     transition: 2s ease;
     
+}
+
+@media(max-width:768px){
+    .skills{
+        height: auto;
+    }
+
+
+@media(max-width:600px){
+    .skills{
+        height: auto;
+    }
+}
 }

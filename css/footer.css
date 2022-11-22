@@ -47,3 +47,14 @@ justify-content: space-between;
     border: 0px;
    
 }
+
+@media(max-width: 600px){
+.pie-de-pagina{
+    height: auto;
+    padding: 20px;
+}
+    
+.redes__lista{
+    flex-direction: column;
+}
+}

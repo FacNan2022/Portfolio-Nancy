@@ -9,8 +9,8 @@ const tarjetaHobbie = (id, titulo, img) => {
     const contenido = `
     <p>${titulo}</p>
     <div class="btn-editar" data-editar>
-    <i class="fa-solid fa-trash-can" id="${id}"></i>
-        <a href="http://127.0.0.1:5500/formularios/editar/editar-hobbie.html?id=${id}"><i class="fa-solid fa-pen"></i></a>
+    <i class="fa-solid fa-trash-can btn-danger" id="${id}"></i>
+        <a href="http://127.0.0.1:5500/formularios/editar/editar-hobbie.html?id=${id}"><i class="fa-solid fa-pen btn-success "></i></a>
         </div>
     <figure class="hobbie">
         <img src="${img}" alt="">

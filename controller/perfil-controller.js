@@ -8,7 +8,7 @@ const crearLinea = (id, nombre, apellido, descripcion, img, ciudad) =>{
     <img src="${img}">
     <h3>${nombre} ${apellido}</h3>
     <p>${ciudad}</p>
-    <a href="http://127.0.0.1:5500/formularios/editar-perfil.html?id=${id}"><button data-editar>Editar</button></a>
+    <a href="http://127.0.0.1:5500/formularios/editar-perfil.html?id=${id}"><button data-editar><i class="fa-solid fa-pencil"></i></button></a>
 </div>
 <div class="sobre-mi__texto">
     <h3 class="sobre__titulo">Sobre mi</h3>

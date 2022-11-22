@@ -5,13 +5,17 @@ const crearTarjeta = (id, img, titulo, descripcion) => {
     const tarjetaEducacion = document.createElement('div');
     tarjetaEducacion.classList.add("educacion__lista");
     const contenido = `
+    <div class="capa">
+    <h3>${titulo}</h3>
+    <p>${descripcion}</p>
+    <div class="btn-editar" data-edicion>
+    <i class="fa-solid fa-trash-can" id="${id}"></i>
+    <a href="http://127.0.0.1:5500/formularios/editar-educacion.html?id=${id}"><i class="fa-solid fa-pen"></i></a>
+    </div>
+    </div>
         <img src="${img}">
-        <h3>${titulo}</h3>
-        <p>${descripcion}</p>
-        <div class="btn-edicion" data-edicion>
-        <i class="fa-solid fa-trash-can" id="${id}"></i>
-        <a href="http://127.0.0.1:5500/formularios/editar-educacion.html?id=${id}"><i class="fa-solid fa-pen"></i></a>
-        </div>
+        
+    
 `
 
     tarjetaEducacion.innerHTML = contenido

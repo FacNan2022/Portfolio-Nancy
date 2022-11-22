@@ -12,9 +12,6 @@ body {
     text-align: center;
     background: #141414 url(https://unsplash.it/1228/880?image=302);
     background-size: cover;
-    background-position: 50%;
-    height: 100vh;
-    
 }
 
 .encabezado {
@@ -23,18 +20,7 @@ body {
     height: 100vh;
     background: url(../imagenes/portada.jpg) center;
     background-size: cover;
-    
-
 }
-
-svg {
-    position: relative;
-    top:20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .encabezado__navegador__lista {
     align-items: center;
@@ -51,12 +37,117 @@ svg {
 
 .titulo {
     position: relative;
-    filter: url(#bienvenida);
     z-index: 1;
+    height: calc(100vh - 80px);
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 80px);
-   padding:10px;
+    overflow: hidden;
 
+}
+
+.titulo h1 {
+    font-size: 15vmin;
+    position: absolute;
+}
+
+.bordeado {
+    color: black;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.text {
+    color: #09f;
+    animation: wave 3s ease-in-out infinite;
+}
+
+.bordeado,
+.text {
+    margin-right: -3000px;
+    transition: all 3000ms ease-out;
+
+}
+
+.titulo:hover .bordeado {
+    margin-right: 0px;
+}
+
+.titulo:hover .text {
+    margin-right: 0px;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 47%,
+                10% 48%,
+                33% 54%,
+                54% 60%,
+                70% 61%,
+                84% 59%,
+                100% 52%,
+                100% 100%,
+                0% 100%);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%,
+                15% 65%,
+                34% 66%,
+                51% 62%,
+                67% 50%,
+                84% 45%,
+                100% 46%,
+                100% 100%,
+                0% 100%);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media(max-width:768px) {
+    .navegador {
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo h1 {
+        font-size: 10vmin;
+        position: absolute;
+    }
+
+
+    .encabezado__navegador__lista {
+        width: 90%;
+
+    }
+
+    @media (max-width:600px) {
+        .encabezado__navegador__lista {
+            flex-direction: column;
+
+        }
+
+        .encabezado__navegador__lista__items {
+            margin: 10px;
+            width: 100%;
+        }
+
+        .titulo h1 {
+            font-size: 8vmin;
+            position: absolute;
+            bottom: 98px;
+        }
+    }
 }
