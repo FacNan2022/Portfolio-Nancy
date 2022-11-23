@@ -1,9 +1,9 @@
 const leerUsuario = () => {
-return fetch('http://localhost:3000/usuario').then((respuesta) => respuesta.json());
+return fetch('https://api-rest-omf3.onrender.com/usuario').then((respuesta) => respuesta.json());
 }
 
 const actualizarUsuario = (id,email, password, registrada) =>  {
-    return fetch(`http://localhost:3000/usuario/${id}`, {
+    return fetch(`https://api-rest-omf3.onrender.com/usuario/${id}`, {
         method: 'PUT',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({id, email, password, registrada})
