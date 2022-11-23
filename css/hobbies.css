@@ -46,6 +46,7 @@
     box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
 }
 
 .hobbie__item p {
